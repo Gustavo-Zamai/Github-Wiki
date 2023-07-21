@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ---
 ## 💻 Projeto
 
-O Projeto da Pokedex é um aplicativo onde você consegue encontrar informações sobre seus pokémons favoritos.
+
 
 <!--[Acesse o projeto em andamento, online](https://Gustavo-Zamai.github.io/Pokedex)
 -->
