@@ -16,7 +16,6 @@ export const InputContainer = styled.div`
         width: 100%;
         height: 62px;
         padding: 0 20px;
-        cursor: pointer;
         color: #FFFFFF;
         font-size: 20px;
     }
