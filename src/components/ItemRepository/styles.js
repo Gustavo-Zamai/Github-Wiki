@@ -21,14 +21,16 @@ export const ItemContainer = styled.div`
 
     a {
         display: flex;
-        margin: 8px 0;
+        width: 15%
     }
-
+    
     a.goTo {
-        color: rgba(147, 196, 125, .6);
+        color: rgba(147, 196, 125, .8);
         text-decoration: none;
         align-items: center;
         justify-content: center;
+        padding: 8px 0;
+        margin: auto;
     }
     
     a.goTo:hover {
@@ -36,10 +38,12 @@ export const ItemContainer = styled.div`
     }
 
     a.remove {
-        color: rgba(224,102,102,.6);
+        color: rgba(224,102,102,.8);
         text-decoration: none;
         align-items: center;
         justify-content: center;
+        padding: 8px 0;
+        margin: auto;
     }
     
     a.remove:hover {
@@ -51,4 +55,26 @@ export const ItemContainer = styled.div`
         margin: 24px 0;
     }
 
+
+    @media only screen and (max-width: 400px) {
+        a {
+            display: flex;
+            width: 50%
+        }
+    }
+
+
+    @media only screen and (max-width: 960px) {
+        a {
+            display: flex;
+            width: 50%
+        }
+    }
+
+    @media only screen and (max-width: 1280px) {
+        a {
+            display: flex;
+            width: 50%
+        }
+    }
 `
