@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto Github Wiki" src="" width="100%">
+  <img alt="Projeto Github Wiki" src=".github/preview.png" width="100%">
 </p>
 
 ---
@@ -32,12 +32,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - React
 - API
 - Axios
+- JSON
 - Git e Github
 
 ---
 ## 💻 Projeto
 
-
+É um buscador de repositórios do Github, onde você pode ter seus repositórios favoritos em um só lugar.
 
 <!--[Acesse o projeto em andamento, online](https://Gustavo-Zamai.github.io/Pokedex)
 -->
@@ -45,13 +46,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ---
 ## 🔖 Layout
 
-
+Esse projeto não teve layout disponibilizado, ele foi desenvolvido durante o segundo modulo da Formação React Developer.
 
 ---
 
 ## 📑 Aprendizado
 
-
+Durante o desenvolvimento desse projeto reforcei conceitos de componentes do React, e trabalhei com funções assíncronas, esperando respostas da API do Github.</br>
+Utilizei o Axios para fazer o trabalho/conexão com a API, e trabalhei com arquivos JSON.
 
 ---
 ## 📝 Licença
