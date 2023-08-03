@@ -27,14 +27,11 @@ function App() {
   }
 
   const handleRemoveRepo = (id) => {
-    let repoFilter = repos.filter(repo => repo.id === id);
+    const newRepos = [...repos]
+    const index = newRepos.findIndex(item => item.id === id)
+    newRepos.splice(index, 1)
 
-    if (repoFilter){
-      setRepos(prev => [...prev].pop());
-      setCurrentRepo('');
-      return
-    }
-
+    setRepos(newRepos)
   }
 
   return (
