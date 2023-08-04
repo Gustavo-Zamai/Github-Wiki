@@ -14,7 +14,7 @@ function ItemRepository({repo, handleRemoveRepo}) {
         <p>{repo.full_name}</p>
         <p>{repo.description}</p>
         <a className='goTo' href={repo.html_url} target="_blank" rel='noreferrer'>Ver Repositório</a>
-        <a className='remove' href='{repo.id}'>Remover Repositório</a>
+        <a className='remove' href='#' rel='noreferrer'>Remover Repositório</a>
         <hr />
     </ItemContainer>
   )
